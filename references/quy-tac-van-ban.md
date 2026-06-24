@@ -214,19 +214,19 @@ Trước khi hoàn thiện nội dung đầu ra, người viết thực hiện r
 
 ## X. CẤU TRÚC TỜ TRÌNH VCB (CHẾ ĐỘ B)
 
-Khi soạn tờ trình, báo cáo giải trình, hoặc đề xuất phê duyệt, người soạn tuân thủ cấu trúc bắt buộc sau:
+Khi soạn tờ trình hoặc đề xuất phê duyệt, người soạn tuân thủ cấu trúc bắt buộc sau. **Quy tắc cấu trúc đầy đủ** (mẫu câu từng mục, quy tắc đơn vị thực hiện, cấp thẩm quyền, chú thích, danh mục tự rà soát 12 điểm) nằm tại [`quy-tac-viet-to-trinh.md`](quy-tac-viet-to-trinh.md); mục này chỉ tóm tắt khung.
 
 ### X.1. Bảng đầu trang (Header Table)
 
-- Đơn vị trình | Ngày trình | Kính trình | Nội dung trình | Ô ý kiến phê duyệt
+- Đơn vị trình | Ngày trình | Kính trình | Nội dung trình — kèm ô ý kiến phê duyệt để trống cho cấp có thẩm quyền.
 
 ### X.2. Các mục chính (theo thứ tự bắt buộc)
 
 - I. CĂN CỨ TRÌNH
-- II. NỘI DUNG TRÌNH (II.1 Sự cần thiết - II.2 Nội dung chi tiết - II.3 Kiến nghị liên quan)
-- III. CẤP THẨM QUYỀN PHÊ DUYỆT
-- IV. ĐỀ XUẤT (kết thúc bằng "Kính trình./.")
-- V. PHỤ LỤC (nếu có)
+- II. NỘI DUNG TRÌNH (1. Bối cảnh và sự cần thiết — 2. Nội dung / đề xuất chi tiết — 3. Yêu cầu / điều kiện đảm bảo khả thi)
+- III. ĐỀ XUẤT (kiến nghị phê duyệt / giao việc, dẫn chiếu Mục II)
+- IV. CẤP THẨM QUYỀN PHÊ DUYỆT (kết thúc bằng "Kính trình./.")
+- Khối chữ ký (Cán bộ trình — Trưởng phòng); Phụ lục nếu có
 
 ### X.3. Định dạng
 

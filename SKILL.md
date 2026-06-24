@@ -45,6 +45,7 @@ thuần tuý không yêu cầu văn phong hành chính.
 | Tài nguyên | Nội dung | Đọc khi |
 | --- | --- | --- |
 | [`references/quy-tac-van-ban.md`](references/quy-tac-van-ban.md) | Bộ quy tắc văn phong đầy đủ: từ cấm, cấu trúc câu, trích dẫn, cấu trúc tờ trình, **danh mục tự rà soát 15 điểm (mục IX)**, bảng viết tắt (mục XI.2) | Mọi tác vụ liên quan văn bản Word / email |
+| [`references/quy-tac-viet-to-trinh.md`](references/quy-tac-viet-to-trinh.md) | Quy tắc cấu trúc & bố cục tờ trình (bảng đầu trang, các mục I–IV, đề xuất, cấp thẩm quyền, chú thích, mẫu câu), **danh mục tự rà soát 12 điểm (mục XI)** | Khi soạn / chỉnh sửa / rà soát một tờ trình |
 | [`references/quy-tac-mau-sac.md`](references/quy-tac-mau-sac.md) | Bảng mầu thương hiệu (RGB/Hex), mầu theo mục đích, **hướng dẫn chọn logo** | Mọi tác vụ liên quan slide / chèn logo |
 | [`references/quy-tac-lam-slide.md`](references/quy-tac-lam-slide.md) | Quy tắc làm slide (cấu trúc, bố cục, biểu đồ, typography), **danh mục tự rà soát 12 điểm (mục VII)** | Mọi tác vụ tạo/chỉnh sửa/rà soát slide |
 | `assets/Slide mẫu Phòng Quant - Mẫu khách hàng thông thường.pptx` | Mẫu PowerPoint 16:9 (13,33×7,5 inch), 17 layout có sẵn placeholder — dùng cho khách hàng phổ thông | Khi tạo slide cho khách hàng thông thường |
@@ -55,10 +56,12 @@ thuần tuý không yêu cầu văn phong hành chính.
 
 ### A. Văn bản Word & Email (tạo / chỉnh sửa / rà soát)
 
-1. **Xác định loại văn bản.** Tờ trình / báo cáo giải trình / đề xuất phê duyệt
-   → tuân thủ **cấu trúc Chế độ B** (mục X của `quy-tac-van-ban.md`): bảng đầu
-   trang, các mục I–V theo thứ tự bắt buộc, kết bằng "Kính trình./.". Email /
-   báo cáo thường → áp dụng văn phong nhưng không bắt buộc cấu trúc tờ trình.
+1. **Xác định loại văn bản.** Tờ trình / đề xuất phê duyệt → tuân thủ **cấu trúc
+   tờ trình** tại `quy-tac-viet-to-trinh.md`: bảng đầu trang + ô ý kiến, các mục
+   I–IV theo thứ tự bắt buộc (I. Căn cứ trình → II. Nội dung trình → III. Đề xuất
+   → IV. Cấp thẩm quyền phê duyệt), kết bằng "Kính trình./.", khối chữ ký; rà
+   soát cuối bằng **danh mục 12 điểm (mục XI)** của file đó. Email / báo cáo
+   thường → áp dụng văn phong nhưng không bắt buộc cấu trúc tờ trình.
 2. **Soạn nội dung theo văn phong.** Khi viết mới, tuân thủ ngay từ đầu:
    - Cấu trúc biện luận ba tầng: **luận điểm → luận cứ (kèm số liệu) → kết luận**.
    - Mỗi nhận định có dẫn chứng định lượng (%, số quan sát, mốc thời gian).

@@ -34,8 +34,10 @@ quantdept-documents-skills/
 ├── SKILL.md                 # Bắt buộc. Chứa tên skill, mô tả, và hướng dẫn agent.
 ├── README.md                # File này — ghi chú cho người bảo trì.
 ├── references/              # Tài liệu chi tiết, agent load khi cần.
-│   ├── quy-tac-van-ban.md   # Quy tắc văn phong + checklist 15 điểm + bảng viết tắt.
-│   └── quy-tac-mau-sac.md   # Bảng màu thương hiệu, màu theo mục đích, cách chọn logo.
+│   ├── quy-tac-van-ban.md       # Quy tắc văn phong + checklist 15 điểm + bảng viết tắt.
+│   ├── quy-tac-viet-to-trinh.md # Cấu trúc & bố cục tờ trình + checklist 12 điểm.
+│   ├── quy-tac-lam-slide.md     # Quy tắc làm slide + checklist 12 điểm.
+│   └── quy-tac-mau-sac.md       # Bảng màu thương hiệu, màu theo mục đích, cách chọn logo.
 ├── assets/                  # Mẫu slide, logo.
 │   ├── Slide mẫu Phòng Quant - Mẫu khách hàng thông thường.pptx   # Mẫu cho khách hàng phổ thông.
 │   ├── Slide mẫu Phòng Quant - Mẫu khách hàng cao cấp (priority).pptx   # Mẫu cho khách hàng cao cấp / ưu tiên.
