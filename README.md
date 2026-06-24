@@ -1,5 +1,7 @@
 # Skill: Lập & rà soát văn bản / trang trình chiếu cho Phòng Quant (Vietcombank)
 
+> © 2026 Phòng Mô hình và Công cụ Quản trị Rủi ro, Vietcombank. Tài liệu nội bộ.
+
 Đây là một skill dành cho Claude (và các agent hỗ trợ định dạng skill tương tự). Skill này giúp agent soạn thảo, chỉnh sửa và kiểm tra văn bản hành chính tiếng Việt — tờ trình, báo cáo, giải trình, công văn, thư điện tử — cũng như trang trình chiếu PowerPoint cho Phòng Mô hình và Công cụ Quản trị Rủi ro (Phòng Quant), Vietcombank.
 
 Kết quả đầu ra được chuẩn hoá theo hai tiêu chí:
