@@ -32,7 +32,7 @@
 
 ### 2. Khách hàng Signature (Cao cấp)
 
-- **Mầu:** Xanh đậm **3435C** `#074C31` + Nâu **476C** `#4C3327` + Vàng kim **118C** `#AD8800`.
+- **Mầu:** Trắng `#FFFFFF` + Nâu **476C** `#4C3327` + Vàng kim **118C** `#AD8800`.
 - **Phong cách:** sang trọng, tinh tế, điềm đạm. Chú trọng sự yên tĩnh, thanh bình; bố cục đẹp, thanh thoát; mầu đậm, sắc nét, phong phú; khoảnh khắc sống động truyền tải chiều sâu câu chuyện. Tông nâu – vàng kim tạo cảm giác đẳng cấp, cao cấp.
 
 ## Quy tắc chọn hệ mầu

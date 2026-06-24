@@ -81,7 +81,7 @@ thuần tuý không yêu cầu văn phong hành chính.
 2. **Áp dụng mầu thương hiệu (hệ RGB/Hex)** theo `quy-tac-mau-sac.md`:
    - Mặc định (khách hàng phổ thông): Xanh đậm `#074C31` + Xanh tươi `#A1C038`
      + trắng.
-   - Signature / cao cấp: Xanh đậm `#074C31` + Nâu `#4C3327` + Vàng kim `#AD8800`.
+   - Signature / cao cấp: Trắng `#FFFFFF` + Nâu `#4C3327` + Vàng kim `#AD8800`.
 3. **Viết nội dung text trên slide theo cùng văn phong** ở phần A (số liệu cụ
    thể, không lượng từ mơ hồ, không trộn lẫn Anh - Việt tuỳ tiện).
 4. **Chèn logo** theo nền và loại tài liệu — xem phần C.
