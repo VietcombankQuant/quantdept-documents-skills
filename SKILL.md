@@ -46,6 +46,7 @@ thuần tuý không yêu cầu văn phong hành chính.
 | --- | --- | --- |
 | [`references/quy-tac-van-ban.md`](references/quy-tac-van-ban.md) | Bộ quy tắc văn phong đầy đủ: từ cấm, cấu trúc câu, trích dẫn, cấu trúc tờ trình, **danh mục tự rà soát 15 điểm (mục IX)**, bảng viết tắt (mục XI.2) | Mọi tác vụ liên quan văn bản Word / email |
 | [`references/quy-tac-mau-sac.md`](references/quy-tac-mau-sac.md) | Bảng mầu thương hiệu (RGB/Hex), mầu theo mục đích, **hướng dẫn chọn logo** | Mọi tác vụ liên quan slide / chèn logo |
+| [`references/quy-tac-lam-slide.md`](references/quy-tac-lam-slide.md) | Quy tắc làm slide (cấu trúc, bố cục, biểu đồ, typography), **danh mục tự rà soát 12 điểm (mục VII)** | Mọi tác vụ tạo/chỉnh sửa/rà soát slide |
 | `assets/Slide mẫu Phòng Quant - Mẫu khách hàng thông thường.pptx` | Mẫu PowerPoint 16:9 (13,33×7,5 inch), 17 layout có sẵn placeholder — dùng cho khách hàng phổ thông | Khi tạo slide cho khách hàng thông thường |
 | `assets/Slide mẫu Phòng Quant - Mẫu khách hàng cao cấp (priority).pptx` | Mẫu PowerPoint 16:9 (13,33×7,5 inch), 17 layout có sẵn placeholder — dùng cho khách hàng cao cấp / ưu tiên | Khi tạo slide cho khách hàng cao cấp / ưu tiên |
 | [`assets/logo-vietcombank/`](assets/logo-vietcombank/) | 11 biến thể logo chính thức (xanh/trắng/đen/vàng, có/không slogan, ngang/dọc) | Khi chèn logo |
@@ -74,17 +75,27 @@ thuần tuý không yêu cầu văn phong hành chính.
 
 ### B. Slide PowerPoint
 
-1. **Khởi tạo từ mẫu.** Chọn tệp mẫu theo đối tượng khách hàng:
+1. **Đọc `quy-tac-lam-slide.md`.** Nắm nguyên tắc cốt lõi: Action Title, một slide
+   một thông điệp, dữ liệu định lượng, trình bày tối giản.
+2. **Lập Ghost Deck.** Viết dàn bài toàn bộ bài trình bày chỉ gồm các tiêu đề hành
+   động để kiểm tra mạch logic trước khi thiết kế (xem mục III.3 của
+   `quy-tac-lam-slide.md`).
+3. **Khởi tạo từ mẫu.** Chọn tệp mẫu theo đối tượng khách hàng:
    - Khách hàng phổ thông: `assets/Slide mẫu Phòng Quant - Mẫu khách hàng thông thường.pptx`
    - Khách hàng cao cấp / ưu tiên: `assets/Slide mẫu Phòng Quant - Mẫu khách hàng cao cấp (priority).pptx`
    Dùng làm khung gốc (16:9). Chọn layout phù hợp trong 17 slide mẫu thay vì dựng lại từ đầu.
-2. **Áp dụng mầu thương hiệu (hệ RGB/Hex)** theo `quy-tac-mau-sac.md`:
+4. **Áp dụng mầu thương hiệu (hệ RGB/Hex)** theo `quy-tac-mau-sac.md` và
+   `quy-tac-lam-slide.md` (mục IV):
    - Mặc định (khách hàng phổ thông): Xanh đậm `#074C31` + Xanh tươi `#A1C038`
      + trắng.
    - Signature / cao cấp: Trắng `#FFFFFF` + Nâu `#4C3327` + Vàng kim `#AD8800`.
-3. **Viết nội dung text trên slide theo cùng văn phong** ở phần A (số liệu cụ
-   thể, không lượng từ mơ hồ, không trộn lẫn Anh - Việt tuỳ tiện).
-4. **Chèn logo** theo nền và loại tài liệu — xem phần C.
+5. **Viết nội dung text trên slide theo cùng văn phong** ở phần A (số liệu cụ
+   thể, không lượng từ mơ hồ, không trộn lẫn Anh - Việt tuỳ tiện). Mọi tiêu đề
+   slide phải là Action Title (câu khẳng định có chủ ngữ - vị ngữ).
+6. **Chèn logo** theo nền và loại tài liệu — xem phần C.
+7. **Rà soát bằng danh mục 12 điểm** (mục VII của `quy-tac-lam-slide.md`). Kiểm
+   tra: Action Title, dữ liệu định lượng, mầu sắc, biểu đồ sạch, takeaway box,
+   căn chỉnh, mạch logic toàn bài.
 
 ### C. Chèn logo Vietcombank
 
