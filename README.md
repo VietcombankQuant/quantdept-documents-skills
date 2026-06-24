@@ -21,11 +21,11 @@ cp -r quantdept-documents-skills ~/.claude/skills/
 
 ### Với Claude Web (claude.ai)
 
-Tải file `.zip` từ trang GitHub của repo này: vào **Code** → **Download ZIP**. Sau đó mở **claude.ai** → **Settings** → **Capabilities** → **Skills**, upload file vừa tải lên. Bạn có thể gắn skill vào một **Project** để dùng lại cho nhiều hội thoại khác nhau.
+Tải file `.zip` từ trang GitHub của repo này: vào **Code** → **Download ZIP**. Sau đó mở **claude.ai** → **Settings** → **Capabilities** → **Skills**, upload file vừa tải lên. Người dùng có thể gắn skill vào một **Project** để dùng lại cho nhiều hội thoại khác nhau.
 
 ### Sau khi cài
 
-Agent sẽ tự nhận biết và gọi skill khi bạn yêu cầu soạn, sửa, hay kiểm tra văn bản, tờ trình, báo cáo, email, slide, hoặc kiểm tra văn phong / màu thương hiệu. Xem thêm danh sách từ khoá kích hoạt trong [`SKILL.md`](SKILL.md).
+Agent sẽ tự nhận biết và gọi skill khi người dùng yêu cầu soạn, sửa, hay kiểm tra văn bản, tờ trình, báo cáo, email, slide, hoặc kiểm tra văn phong / màu thương hiệu. Xem thêm danh sách từ khoá kích hoạt trong [`SKILL.md`](SKILL.md).
 
 ## Cấu trúc thư mục
 
