@@ -37,7 +37,8 @@ quantdept-documents-skills/
 │   ├── quy-tac-van-ban.md   # Quy tắc văn phong + checklist 15 điểm + bảng viết tắt.
 │   └── quy-tac-mau-sac.md   # Bảng màu thương hiệu, màu theo mục đích, cách chọn logo.
 ├── assets/                  # Mẫu slide, logo.
-│   ├── Slide mẫu Phòng Quant - Mẫu khách hàng thông thường.pptx   # Template PowerPoint 16:9, 17 layout dựng sẵn.
+│   ├── Slide mẫu Phòng Quant - Mẫu khách hàng thông thường.pptx   # Mẫu cho khách hàng phổ thông.
+│   ├── Slide mẫu Phòng Quant - Mẫu khách hàng cao cấp (priority).pptx   # Mẫu cho khách hàng cao cấp / ưu tiên.
 │   └── logo-vietcombank/    # 11 biến thể logo chính thức (xanh/trắng/đen/vàng, có/không slogan, ngang/dọc).
 └── scripts/
     └── validate.py          # Script kiểm tra format SKILL.md.

@@ -46,7 +46,8 @@ thuần tuý không yêu cầu văn phong hành chính.
 | --- | --- | --- |
 | [`references/quy-tac-van-ban.md`](references/quy-tac-van-ban.md) | Bộ quy tắc văn phong đầy đủ: từ cấm, cấu trúc câu, trích dẫn, cấu trúc tờ trình, **danh mục tự rà soát 15 điểm (mục IX)**, bảng viết tắt (mục XI.2) | Mọi tác vụ liên quan văn bản Word / email |
 | [`references/quy-tac-mau-sac.md`](references/quy-tac-mau-sac.md) | Bảng mầu thương hiệu (RGB/Hex), mầu theo mục đích, **hướng dẫn chọn logo** | Mọi tác vụ liên quan slide / chèn logo |
-| `assets/Slide mẫu Phòng Quant.pptx` | Mẫu PowerPoint 16:9 (13,33×7,5 inch), 17 layout có sẵn placeholder | Khi tạo slide mới — dùng làm khung gốc |
+| `assets/Slide mẫu Phòng Quant - Mẫu khách hàng thông thường.pptx` | Mẫu PowerPoint 16:9 (13,33×7,5 inch), 17 layout có sẵn placeholder — dùng cho khách hàng phổ thông | Khi tạo slide cho khách hàng thông thường |
+| `assets/Slide mẫu Phòng Quant - Mẫu khách hàng cao cấp (priority).pptx` | Mẫu PowerPoint 16:9 (13,33×7,5 inch), 17 layout có sẵn placeholder — dùng cho khách hàng cao cấp / ưu tiên | Khi tạo slide cho khách hàng cao cấp / ưu tiên |
 | [`assets/logo-vietcombank/`](assets/logo-vietcombank/) | 11 biến thể logo chính thức (xanh/trắng/đen/vàng, có/không slogan, ngang/dọc) | Khi chèn logo |
 
 ## Quy trình
@@ -73,9 +74,10 @@ thuần tuý không yêu cầu văn phong hành chính.
 
 ### B. Slide PowerPoint
 
-1. **Khởi tạo từ mẫu.** Dùng tệp `assets/Slide mẫu Phòng Quant.pptx`
-   làm khung gốc (16:9). Chọn layout phù hợp trong 17 slide mẫu thay vì dựng lại
-   từ đầu.
+1. **Khởi tạo từ mẫu.** Chọn tệp mẫu theo đối tượng khách hàng:
+   - Khách hàng phổ thông: `assets/Slide mẫu Phòng Quant - Mẫu khách hàng thông thường.pptx`
+   - Khách hàng cao cấp / ưu tiên: `assets/Slide mẫu Phòng Quant - Mẫu khách hàng cao cấp (priority).pptx`
+   Dùng làm khung gốc (16:9). Chọn layout phù hợp trong 17 slide mẫu thay vì dựng lại từ đầu.
 2. **Áp dụng mầu thương hiệu (hệ RGB/Hex)** theo `quy-tac-mau-sac.md`:
    - Mặc định (khách hàng phổ thông): Xanh đậm `#074C31` + Xanh tươi `#A1C038`
      + trắng.
