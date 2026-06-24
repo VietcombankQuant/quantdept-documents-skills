@@ -48,21 +48,13 @@ quantdept-documents-skills/
     └── validate.py          # Script kiểm tra format SKILL.md.
 ```
 
-## Kiểm tra
-
-```bash
-python scripts/validate.py
-```
-
-Script này xác nhận `SKILL.md` có phần khai báo đầu file đúng chuẩn — tên skill đúng định dạng (chữ thường, số, gạch nối, tối đa 64 ký tự) và mô tả không quá 1024 ký tự.
-
-## Triết lý thiết kế
+## Nguyên tắc thiết kế
 
 - **Load dần khi cần.** `SKILL.md` giữ ngắn; chi tiết nằm trong `references/`, agent chỉ đọc phần liên quan đến việc đang làm.
 - **Code ở trong file script, không phải trong văn bản skill.** Mọi logic cho vào `scripts/` thay vì nhồi code block dài vào `SKILL.md`.
 - **Mô tả điều kiện skill được sử dụng** Viết bằng đúng từ ngữ người dùng sẽ nói, và nói rõ *khi nào* thì dùng skill.
 
-## Quy ước đặt tên (hầu hết loader đều yêu cầu)
+## Quy ước đặt tên
 
 - **Tên thư mục**: chữ thường, số, gạch nối.
 - **Tên skill**: trùng tên thư mục, tối đa 64 ký tự.
