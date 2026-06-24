@@ -21,7 +21,7 @@ Mọi slide của Phòng Quant phải đạt bốn tiêu chí cốt lõi (dựa 
 
 Mỗi slide tuân thủ cấu trúc ba tầng từ trên xuống:
 
-```
+```plaintext
 ┌──────────────────────────────────────────────┐
 │  TIÊU ĐỀ HÀNH ĐỘNG (Action Title)            │
 │  Một câu khẳng định — cỡ chữ lớn nhất        │
@@ -250,11 +250,12 @@ Tuân thủ hướng dẫn tại `quy-tac-mau-sac.md` (mục *Logo Vietcombank*)
 
 Mọi số liệu, biểu đồ trên slide phải có dòng nguồn (source line) ở góc dưới bên trái, cỡ chữ 8pt, mầu xám. Định dạng:
 
-```
+```plaintext
 Nguồn: [Tên báo cáo/tổ chức], [năm] | [điều/khoản nếu là quy định]
 ```
 
 Ví dụ:
+
 - `Nguồn: Báo cáo tài chính VCB, Q1/2026`
 - `Nguồn: NHNN, Thông tư 14/2025/TT-NHNN, Điều 3, Khoản 2`
 
@@ -265,6 +266,7 @@ Mọi slide (trừ trang bìa) phải có số trang. Định dạng: `[số tra
 ### VIII.4. Ghi chú người trình bày (Speaker Notes)
 
 Người soạn điền ghi chú vào phần Notes của mỗi slide, bao gồm:
+
 - Điểm cần nhấn mạnh khi trình bày.
 - Số liệu chi tiết bổ sung (không đưa lên slide chính).
 - Câu trả lời cho các câu hỏi dự kiến từ người nghe.
@@ -296,7 +298,7 @@ Người soạn điền ghi chú vào phần Notes của mỗi slide, bao gồm:
 
 ### Trước (slide chưa đạt chuẩn)
 
-```
+```plaintext
 ┌───────────────────────────────────────────────────┐
 │ Tình hình nợ xấu                                   │  ← Tiêu đề chủ đề, không nêu kết luận
 ├───────────────────────────────────────────────────┤
@@ -311,7 +313,7 @@ Người soạn điền ghi chú vào phần Notes của mỗi slide, bao gồm:
 
 ### Sau (slide đạt chuẩn)
 
-```
+```plaintext
 ┌───────────────────────────────────────────────────┐
 │ Tỷ lệ nợ xấu giảm 1,2 điểm % trong Q1/2026,       │  ← Tiêu đề hành động
 │ đạt 2,1% — thấp nhất trong 3 năm                   │
