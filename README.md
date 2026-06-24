@@ -6,9 +6,11 @@ support the Skills format). Copy this folder, rename it, and fill in the files.
 ## Quick start
 
 1. Copy the template into your skills directory and rename it:
+
    ```bash
    cp -r quantdept-documents-skills ../my-skill-name
    ```
+
 2. Edit `SKILL.md`:
    - Set `name` to match the folder name (lowercase, hyphens, ≤ 64 chars).
    - Write a `description` that says **what** the skill does and **when** to use
@@ -21,7 +23,7 @@ support the Skills format). Copy this folder, rename it, and fill in the files.
 
 ## Folder layout
 
-```
+```plaintext
 quantdept-documents-skills/
 ├── SKILL.md            # Required. Frontmatter (name + description) + instructions.
 ├── README.md           # This file — notes for the skill author, not the agent.
