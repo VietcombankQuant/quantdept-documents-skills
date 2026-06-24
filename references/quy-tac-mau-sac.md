@@ -1,7 +1,7 @@
 # Mầu sắc thương hiệu Vietcombank — theo mục đích sử dụng
 
 > Tóm tắt từ *Cẩm nang hướng dẫn sử dụng thương hiệu Vietcombank* (cập nhật 2020).
-> Phạm vi: mầu sắc dùng cho trình bày văn bản và slide trình chiếu.
+> Phạm vi: mầu sắc dùng cho trình bày slide trình chiếu.
 
 ## Bảng mầu gốc
 

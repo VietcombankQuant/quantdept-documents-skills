@@ -1,5 +1,9 @@
 # TỔNG HỢP BỘ QUY TẮC VĂN PHONG
 
+> Tổng hợp quy ước văn phong hành chính - chính luận của Phòng Mô hình và công cụ quản trị rủi ro (Phòng Quant), Vietcombank.
+> Phạm vi: mọi nội dung đầu ra tiếng Việt hoặc tiếng Việt xen lẫn tiếng Anh - tờ trình, báo cáo giải trình, phân tích kỹ thuật, văn bản file Word, email nói chung
+> Khi nào dùng: khi soạn hoặc rà soát văn bản phục vụ cho mục đích công việc của Phòng Quant
+
 ## I. NGUYÊN TẮC NỀN TẢNG
 
 Mọi nội dung đầu ra (_output_) tiếng Việt của Phòng Mô hình và công cụ quản trị rủi ro (Phòng Quant), Vietcombank (VCB) - từ tờ trình, báo cáo giải trình, đến phân tích kỹ thuật - phải tuân thủ văn phong hành chính - chính luận. Văn phong này đặc trưng bởi bốn tính chất cốt lõi:
