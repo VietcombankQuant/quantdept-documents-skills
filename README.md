@@ -21,13 +21,7 @@ cp -r quantdept-documents-skills ~/.claude/skills/
 
 ### Với Claude Web (claude.ai)
 
-Nén toàn bộ thư mục thành file `.zip`, lưu ý để `SKILL.md` ở gốc file nén:
-
-```bash
-zip -r quantdept-documents-skills.zip quantdept-documents-skills
-```
-
-Vào **claude.ai** → **Settings** → **Capabilities** → **Skills**, upload file `.zip` vừa tạo lên. Bạn có thể gắn skill vào một **Project** để dùng lại cho nhiều hội thoại khác nhau.
+Tải file `.zip` từ trang GitHub của repo này: vào **Code** → **Download ZIP**. Sau đó mở **claude.ai** → **Settings** → **Capabilities** → **Skills**, upload file vừa tải lên. Bạn có thể gắn skill vào một **Project** để dùng lại cho nhiều hội thoại khác nhau.
 
 ### Sau khi cài
 
