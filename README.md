@@ -1,54 +1,94 @@
-# Skill Template
+# Skill: Lập & rà soát văn bản / trang trình chiếu cho Phòng Quant (Vietcombank)
 
-A scaffold for building a new Agent Skill for Claude (and other agents that
-support the Skills format). Copy this folder, rename it, and fill in the files.
+Skill dành cho agent Claude (và các agent khác hỗ trợ định dạng skill) giúp
+**tạo, chỉnh sửa và rà soát** văn bản hành chính tiếng Việt (tờ trình, báo cáo,
+giải trình, công văn, thư điện tử) và trang trình chiếu PowerPoint cho **Phòng Mô
+hình và công cụ quản trị rủi ro (Phòng Quant), Vietcombank**.
 
-## Quick start
+Skill chuẩn hoá kết quả đầu ra theo hai bộ quy tắc đã được phê duyệt:
 
-1. Copy the template into your skills directory and rename it:
+- **Văn phong hành chính - chính luận** — loại bỏ văn nói, lượng từ mơ hồ, trộn
+  lẫn Anh - Việt; trích dẫn quy định Basel/EBA/ECB/NHNN đúng chuẩn; cấu trúc
+  luận điểm → luận cứ → kết luận.
+- **Nhận diện thương hiệu Vietcombank** — bảng mầu, biểu trưng, định dạng trang
+  trình chiếu.
 
-   ```bash
-   cp -r quantdept-documents-skills ../my-skill-name
-   ```
+> Tệp README này là ghi chú dành cho **người bảo trì skill**, không phải nội
+> dung agent đọc. Hướng dẫn mà agent thực thi nằm trong [`SKILL.md`](SKILL.md).
 
-2. Edit `SKILL.md`:
-   - Set `name` to match the folder name (lowercase, hyphens, ≤ 64 chars).
-   - Write a `description` that says **what** the skill does and **when** to use
-     it, in the third person. This is the only text the agent reads when
-     deciding to invoke the skill, so make the triggers explicit.
-3. Replace the body of `SKILL.md` with your real instructions.
-4. Add any helper code to `scripts/`, deep docs to `references/`, and templates
-   or boilerplate to `assets/`. Delete folders you don't use.
-5. Validate with `scripts/validate.py` (or your own check).
+## Cách cài đặt / sử dụng
 
-## Folder layout
+### Trên Claude Code (dòng lệnh)
+
+Sao chép thư mục này vào thư mục skill của Claude (ví dụ `~/.claude/skills/`),
+giữ nguyên tên thư mục `quantdept-documents-skills`:
+
+```bash
+cp -r quantdept-documents-skills ~/.claude/skills/
+```
+
+### Trên Claude Web (claude.ai)
+
+Nén toàn bộ thư mục skill (giữ `SKILL.md` ở thư mục gốc của tệp nén) thành một
+tệp `.zip`:
+
+```bash
+zip -r quantdept-documents-skills.zip quantdept-documents-skills
+```
+
+Sau đó mở **claude.ai**, vào **Cài đặt** (Settings) → **Năng lực**
+(Capabilities) → mục **Kỹ năng** (Skills) rồi tải tệp `.zip` vừa nén lên. Bạn
+cũng có thể gắn skill vào một **Dự án** (Project) để dùng lại cho nhiều cuộc trò
+chuyện.
+
+### Sau khi cài đặt
+
+Ở cả hai môi trường, agent sẽ tự nhận diện và gọi skill khi người dùng yêu cầu
+soạn / viết / biên tập / rà soát văn bản, tờ trình, báo cáo, thư điện tử, trang
+trình chiếu, hoặc kiểm tra văn phong, định dạng, mầu thương hiệu (xem phần mô tả
+trong [`SKILL.md`](SKILL.md) để biết đầy đủ các từ khoá kích hoạt).
+
+## Bố cục thư mục
 
 ```plaintext
 quantdept-documents-skills/
-├── SKILL.md            # Required. Frontmatter (name + description) + instructions.
-├── README.md           # This file — notes for the skill author, not the agent.
-├── scripts/            # Executable helpers the skill calls (keep code out of SKILL.md).
-│   └── example.py
-├── references/         # Detailed docs loaded on demand (progressive disclosure).
-│   └── reference.md
-└── assets/             # Templates, boilerplate, fonts, output stubs.
-    └── .gitkeep
+├── SKILL.md                 # Bắt buộc. Phần khai báo đầu tệp (tên + mô tả) và hướng dẫn cho agent.
+├── README.md                # Tệp này — ghi chú cho người bảo trì.
+├── references/              # Tài liệu chi tiết, agent đọc khi cần (đọc dần để giảm tải).
+│   ├── quy-tac-van-ban.md   # Bộ quy tắc văn phong + danh mục tự rà soát 15 điểm + bảng viết tắt.
+│   └── quy-tac-mau-sac.md   # Bảng mầu thương hiệu, mầu theo mục đích, hướng dẫn chọn biểu trưng.
+├── assets/                  # Mẫu, biểu trưng, tài nguyên dùng kèm.
+│   ├── Slide mẫu Phòng Quant.pptx   # Mẫu PowerPoint 16:9, 17 bố cục có sẵn ô giữ chỗ.
+│   └── logo-vietcombank/    # 11 biến thể biểu trưng chính thức (xanh/trắng/đen/vàng, có/không khẩu hiệu, ngang/dọc).
+└── scripts/
+    └── validate.py          # Kiểm tra SKILL.md hợp lệ (tên + mô tả).
 ```
 
-## Design principles
+## Kiểm tra
 
-- **Progressive disclosure.** `SKILL.md` should stay short. Push detail into
-  `references/` and link to it; the agent only reads what it needs.
-- **Code lives in files, not prose.** Put scripts in `scripts/` and have the
-  skill run them, instead of pasting large code blocks into `SKILL.md`.
-- **The description does the routing.** A skill is only as useful as its
-  `description` — load it with the words a user would actually say.
-- **One skill, one job.** If a skill grows multiple unrelated jobs, split it.
+Chạy đoạn lệnh sau để kiểm tra phần khai báo đầu tệp của SKILL.md đúng quy ước:
 
-## Naming rules (enforced by most loaders)
+```bash
+python scripts/validate.py
+```
 
-| Field         | Rule                                                        |
-|---------------|-------------------------------------------------------------|
-| Folder name   | lowercase letters, digits, hyphens                          |
-| `name`        | matches folder name, ≤ 64 chars                             |
-| `description` | ≤ 1024 chars, third person, includes when-to-use triggers   |
+Đoạn lệnh xác nhận SKILL.md có phần khai báo đầu tệp, có tên skill đúng định dạng
+(chữ thường - số - gạch nối, không quá 64 ký tự) và phần mô tả không quá 1024 ký
+tự.
+
+## Nguyên tắc thiết kế skill
+
+- **Đọc dần khi cần.** `SKILL.md` giữ ngắn gọn; đẩy chi tiết sang `references/`
+  và để agent chỉ đọc phần cần dùng.
+- **Mã nguồn nằm trong tệp, không nằm trong lời văn.** Đặt đoạn lệnh trong
+  `scripts/` thay vì dán khối mã lớn vào `SKILL.md`.
+- **Phần mô tả quyết định việc định tuyến.** Viết bằng đúng những từ người dùng
+  sẽ nói, ghi rõ *khi nào* dùng skill.
+- **Một skill, một nhiệm vụ.**
+
+## Quy tắc đặt tên (đa số trình nạp bắt buộc)
+
+- **Tên thư mục** — chữ thường, chữ số, gạch nối.
+- **Tên skill** — trùng tên thư mục, không quá 64 ký tự.
+- **Phần mô tả** — không quá 1024 ký tự, viết ở ngôi thứ ba, nêu rõ điều kiện
+  kích hoạt.
