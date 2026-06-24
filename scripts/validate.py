@@ -65,7 +65,7 @@ def main() -> int:
             errors.append("`name` must be lowercase letters/digits/hyphens")
         if len(name) > 64:
             errors.append("`name` exceeds 64 characters")
-        if name != skill_dir.name and skill_dir.name != "skill-template":
+        if name != skill_dir.name and skill_dir.name != "quantdept-documents-skills":
             errors.append(f"`name` ({name}) should match folder ({skill_dir.name})")
 
     if not desc:
